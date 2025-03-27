@@ -95,11 +95,29 @@ You can add custom headers in the configuration file:
 ```php
 use futuremeng\Ollama\Facades\Ollama;
 
+$schema = [
+            "type"  => "array",
+            "items" => [
+                "type"       => "object",
+                "properties" => [
+                    "s"    => ["type" => "string"],
+                    "p"    => ["type" => "string"],
+                    "o"    => ["type" => "string"],
+                    "type" => [
+                        "type" => "string",
+                        "enum" => ["resource", "literal"],
+                    ],
+                ],
+                "required"   => ["s", "p", "o", "type"],
+            ],
+        ];
+
 /** @var array $response */
-$response = Ollama::agent('You are a weather expert...')
-    ->prompt('Why is the sky blue?')
+$response = Ollama::agent('You are a language expert...')
+    ->prompt('The sky is blue.')
     ->model('llama2')
     ->options(['temperature' => 0.8])
+    ->format($schema)
     ->stream(false)
     ->ask();
 ```
