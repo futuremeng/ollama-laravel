@@ -1,7 +1,7 @@
 <?php
 
-use Cloudstudio\Ollama\Ollama;
-use Cloudstudio\Ollama\Services\ModelService;
+use futuremeng\Ollama\Ollama;
+use futuremeng\Ollama\Services\ModelService;
 
 beforeEach(function () {
     $this->ollama = new Ollama(new ModelService());

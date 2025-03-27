@@ -1,6 +1,6 @@
 <?php
 
-// Config for Cloudstudio/Ollama
+// Config for futuremeng/Ollama
 
 return [
     'model' => env('OLLAMA_MODEL', 'llama2'),

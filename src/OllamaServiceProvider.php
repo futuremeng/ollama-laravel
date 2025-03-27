@@ -1,8 +1,8 @@
 <?php
 
-namespace Cloudstudio\Ollama;
+namespace futuremeng\Ollama;
 
-use Cloudstudio\Ollama\Services\ModelService;
+use futuremeng\Ollama\Services\ModelService;
 use Illuminate\Foundation\Application;
 use Spatie\LaravelPackageTools\Exceptions\InvalidPackage;
 use Spatie\LaravelPackageTools\Package;

@@ -5,13 +5,13 @@ Ollama-Laravel is a Laravel package that provides a seamless integration with th
 ## If you use laravel 10.x, please use the following version V1.0.9
 
 ```bash
-https://github.com/cloudstudio/ollama-laravel/releases/tag/v1.0.9
+https://github.com/futuremeng/ollama-laravel/releases/tag/v1.0.9
 ```
 
 ## Installation
 
 ```bash
-composer require cloudstudio/ollama-laravel
+composer require futuremeng/ollama-laravel
 ```
 
 ## Configuration
@@ -93,7 +93,7 @@ You can add custom headers in the configuration file:
 ### Basic Usage
 
 ```php
-use Cloudstudio\Ollama\Facades\Ollama;
+use futuremeng\Ollama\Facades\Ollama;
 
 /** @var array $response */
 $response = Ollama::agent('You are a weather expert...')
@@ -177,7 +177,7 @@ $response = Ollama::model('llama3.1')
 
 ```php
 
-use Cloudstudio\Ollama\Facades\Ollama;
+use futuremeng\Ollama\Facades\Ollama;
 use Illuminate\Console\BufferedConsoleOutput;
 
 /** @var \GuzzleHttp\Psr7\Response $response */

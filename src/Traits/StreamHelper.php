@@ -1,6 +1,6 @@
 <?php
 
-namespace Cloudstudio\Ollama\Traits;
+namespace futuremeng\Ollama\Traits;
 
 use Psr\Http\Message\StreamInterface;
 use Exception;

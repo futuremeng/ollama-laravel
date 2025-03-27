@@ -1,10 +1,10 @@
 <?php
 
-namespace Cloudstudio\Ollama\Tests;
+namespace futuremeng\Ollama\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Cloudstudio\Ollama\OllamaServiceProvider;
+use futuremeng\Ollama\OllamaServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Cloudstudio\\Ollama\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'futuremeng\\Ollama\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

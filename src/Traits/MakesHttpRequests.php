@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Cloudstudio\Ollama\Traits;
+namespace futuremeng\Ollama\Traits;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;

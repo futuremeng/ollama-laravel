@@ -1,11 +1,11 @@
 <?php
 
-namespace Cloudstudio\Ollama;
+namespace futuremeng\Ollama;
 
 use Closure;
-use Cloudstudio\Ollama\Services\ModelService;
-use Cloudstudio\Ollama\Traits\MakesHttpRequests;
-use Cloudstudio\Ollama\Traits\StreamHelper;
+use futuremeng\Ollama\Services\ModelService;
+use futuremeng\Ollama\Traits\MakesHttpRequests;
+use futuremeng\Ollama\Traits\StreamHelper;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Psr7\Response;
 use Psr\Http\Message\StreamInterface;

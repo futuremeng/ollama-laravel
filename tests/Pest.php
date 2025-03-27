@@ -1,5 +1,5 @@
 <?php
 
-use Cloudstudio\Ollama\Tests\TestCase;
+use futuremeng\Ollama\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

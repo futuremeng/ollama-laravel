@@ -16,7 +16,7 @@
     backupStaticProperties="false"
 >
     <testsuites>
-        <testsuite name="Cloudstudio Test Suite">
+        <testsuite name="futuremeng Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

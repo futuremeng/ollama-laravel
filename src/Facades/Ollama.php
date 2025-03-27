@@ -1,9 +1,9 @@
 <?php
 
-namespace Cloudstudio\Ollama\Facades;
+namespace futuremeng\Ollama\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Cloudstudio\Ollama\Ollama as OllamaClient;
+use futuremeng\Ollama\Ollama as OllamaClient;
 
 /**
  * @see OllamaClient

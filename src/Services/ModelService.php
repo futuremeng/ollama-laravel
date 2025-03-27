@@ -1,8 +1,8 @@
 <?php
 
-namespace Cloudstudio\Ollama\Services;
+namespace futuremeng\Ollama\Services;
 
-use Cloudstudio\Ollama\Traits\MakesHttpRequests;
+use futuremeng\Ollama\Traits\MakesHttpRequests;
 use GuzzleHttp\Exception\GuzzleException;
 
 class ModelService
