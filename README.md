@@ -116,7 +116,7 @@ $schema = [
 $response = Ollama::agent('You are a language expert...')
     ->prompt('The sky is blue.')
     ->model('llama2')
-    ->options(['temperature' => 0.8])
+    ->options(['temperature' => 0.7])
     ->format($schema)
     ->stream(false)
     ->ask();

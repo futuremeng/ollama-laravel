@@ -27,7 +27,7 @@ it('correctly processes ask method with real API call', function () {
     $response = $this->ollama->agent('You are a weather expert...')
         ->prompt('Why is the sky blue? answer only in 4 words')
         ->model('llama2')
-        ->options(['temperature' => 0.8])
+        ->options(['temperature' => 0.7])
         ->stream(false)
         ->ask();
 
